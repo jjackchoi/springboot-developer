@@ -1,0 +1,5 @@
+SpringBoot-developer
+2024-06-21
+
+1. 엔티티 구성하기
+id, title, content
