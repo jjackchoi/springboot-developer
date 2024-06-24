@@ -3,11 +3,13 @@ package me.choiseungmin.springbootdeveloper.controller;
 import lombok.RequiredArgsConstructor;
 import me.choiseungmin.springbootdeveloper.domain.Article;
 import me.choiseungmin.springbootdeveloper.dto.AddArticleRequest;
+import me.choiseungmin.springbootdeveloper.dto.ArticleListViewResponse;
 import me.choiseungmin.springbootdeveloper.dto.ArticleResponse;
 import me.choiseungmin.springbootdeveloper.dto.UpdateArticleRequest;
 import me.choiseungmin.springbootdeveloper.service.BlogService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -64,4 +66,5 @@ public class BlogApiController {
 
         return ResponseEntity.ok().body(updatedArticle);
     }
+
 }
