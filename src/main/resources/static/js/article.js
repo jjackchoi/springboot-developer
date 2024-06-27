@@ -40,7 +40,7 @@ if (modifyButton) {
 }
 
 // 등록 기능
-const createButton - document,getElementById('create-btn');
+const createButton = document.getElementById('create-btn');
 
 if (createButton) {
     createButton.addEventListener('click', event => {
